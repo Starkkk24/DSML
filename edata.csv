@@ -1,0 +1,11 @@
+ID,Name,Age,Department,Salary,Experience,City
+1,Alice,25,HR,40000,2,Delhi
+2,Bob,30,IT,60000,5,Mumbai
+3,Charlie,35,Finance,75000,8,Bangalore
+4,David,40,IT,50000,6,Pune
+5,Eva,22,Marketing,45000,1,Hyderabad
+6,Frank,29,Finance,70000,7,Chennai
+7,Grace,31,HR,52000,4,Delhi
+8,Hannah,28,Marketing,48000,3,Pune
+9,Ian,33,IT,65000,5,Bangalore
+10,Julia,26,Finance,71000,9,Hyderabad
