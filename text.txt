@@ -1,0 +1,2 @@
+So, this is the text file
+I'll use to learn "File Operations" in Python.

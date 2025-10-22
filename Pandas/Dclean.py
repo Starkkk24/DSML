@@ -1,0 +1,21 @@
+import pandas as pd
+
+df = pd.read_csv("sample.csv")
+# print(df.isnull().sum())
+# print(df.dropna())
+# print(df.dropna(axis=0))
+# print(df.fillna())
+# print(df.fillna(method="bfill"))
+# print(df.bfill())
+# print(df.drop_duplicates())
+# print(df.duplicated(subset=["Name", "Age"]))
+# print(df["Name"].str.upper()) 
+# print(df["City"].str.contains('Delhi', case=False))
+# print(df["Email"].str.split("@")[0] )
+df2 = df.dropna().copy()
+# df2["Age"] = df2["Age"].astype(int)
+# df2["Age Group"] = df2["Age"].apply(lambda x: "Adult" if x >= 18 else "Minor")
+# gender_map = {"M": "Male", "F": "Female"}
+# df2["Gender"] = df2["Gender"].map(gender_map)
+df2["City"] =  df2["City"].replace({"Delhi": "New Delhi", "Mumbai": "Bombay"})
+print(df2)    
